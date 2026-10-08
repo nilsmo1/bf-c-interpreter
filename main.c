@@ -56,6 +56,6 @@ int main(int argc, char** argv) {
     if (!get_content(argv[1], content))
         return 1;
     run(content);
-    puts("\n");
+    puts("");
     return 0;
 }
